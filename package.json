@@ -1,0 +1,22 @@
+{
+  "name": "vue-bulma",
+  "version": "0.0.0",
+  "description": "Vue Bulma",
+  "repository": "vue-bulma/vue-bulma",
+  "license": "MIT",
+  "author": {
+    "name": "Fangdun Cai",
+    "email": "cfddream@gmail.com",
+    "url": "fundon.me"
+  },
+  "main": "src/index.js",
+  "peerDependencies": {
+    "bulma": "^0.2",
+    "vue": "^2"
+  },
+  "keywords": [
+    "vue",
+    "bulma",
+    "vue-bulma"
+  ]
+}

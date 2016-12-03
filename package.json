@@ -11,12 +11,14 @@
   },
   "main": "src/index.js",
   "peerDependencies": {
-    "bulma": "^0.2",
     "vue": "^2"
   },
   "keywords": [
     "vue",
     "bulma",
     "vue-bulma"
-  ]
+  ],
+  "dependencies": {
+    "bulma": "0.2.3"
+  }
 }

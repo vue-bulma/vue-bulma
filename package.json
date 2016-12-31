@@ -10,15 +10,46 @@
     "url": "fundon.me"
   },
   "main": "src/index.js",
-  "peerDependencies": {
-    "vue": "^2"
-  },
   "keywords": [
     "vue",
     "bulma",
     "vue-bulma"
   ],
+  "engines": {
+    "node": ">=4",
+    "npm": ">=3"
+  },
+  "scripts": {
+    "build": "rimraf site && cross-env NODE_ENV=production webpack --config build/webpack.config.js --progress",
+    "build:open": "http-server -p 8000 site/",
+    "deploy": "gh-pages -d site",
+    "dev": "cross-env NODE_ENV=development node build/dev-server.js"
+  },
   "dependencies": {
     "bulma": "0.2.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "6.6.0",
+    "buble": "0.15.1",
+    "buble-loader": "0.4.0",
+    "connect-history-api-fallback": "1.3.0",
+    "cross-env": "3.1.3",
+    "css-loader": "0.26.1",
+    "express": "4.14.0",
+    "extract-text-webpack-plugin": "2.0.0-beta.4",
+    "file-loader": "0.9.0",
+    "html-webpack-plugin": "2.25.0",
+    "http-proxy-middleware": "0.17.3",
+    "node-sass": "4.1.1",
+    "opn": "4.0.2",
+    "rimraf": "2.5.4",
+    "sass-loader": "4.1.1",
+    "url-loader": "0.5.7",
+    "vue": "2.1.8",
+    "vue-loader": "10.0.2",
+    "vue-template-compiler": "2.1.8",
+    "webpack": "2.1.0-beta.28",
+    "webpack-dev-middleware": "1.9.0",
+    "webpack-hot-middleware": "2.14.0"
   }
 }

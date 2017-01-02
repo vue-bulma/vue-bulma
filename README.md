@@ -8,9 +8,12 @@ Vue Bulma
 ![](https://img.shields.io/badge/license-MIT-blue.svg)
 ![](https://img.shields.io/badge/status-stable-green.svg)
 
----
 
-> [fundon.me](https://fundun.me) &nbsp;&middot;&nbsp;
-> GitHub [@fundon](https://github.com/fundon) &nbsp;&middot;&nbsp;
-> Twitter [@_fundon](https://twitter.com/_fundon)
+## Maintainers
 
++ [fundon](https://github.com/fundon) &nbsp;&middot;&nbsp; [fundon.me](https://fundon.me) &nbsp;&middot;&nbsp; [Twitter@fundon](https://twitter.com/_fundon)
++ [luventa](https://github.com/luventa)
+
+## License
+
+MIT

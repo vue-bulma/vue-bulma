@@ -41,6 +41,14 @@ const config = {
           limit: 10000,
           name: '[name].[ext]?[hash]'
         }
+      },
+      {
+        test: /\.(woff2?|eot|ttf|otf)(\?.*)?$/,
+        loader: 'url-loader',
+        query: {
+          limit: 10000,
+          name: path.posix.join('assets', 'fonts/[name].[hash:7].[ext]')
+        }
       }
     ]
   },
@@ -65,7 +73,12 @@ const config = {
 
 }
 
-if (process.env.NODE_ENV === 'production') {
+if (process.env.NODE_ENV === 'development') {
+  vueConfig.loaders = {
+    sass: ['vue-style-loader', 'css-loader', 'sass-loader?indentedSyntax'].join('!'),
+    scss: ['vue-style-loader', 'css-loader', 'sass-loader'].join('!')
+  }
+} else if (process.env.NODE_ENV === 'production') {
   const ExtractTextPlugin = require('extract-text-webpack-plugin')
   // Use ExtractTextPlugin to extract CSS into a single file
   // so it's applied on initial render.
@@ -74,6 +87,10 @@ if (process.env.NODE_ENV === 'production') {
   // so they are extracted.
   vueConfig.loaders = {
     sass: ExtractTextPlugin.extract({
+      loader: 'css-loader!sass-loader?indentedSyntax',
+      fallbackLoader: 'vue-style-loader' // <- this is a dep of vue-loader
+    }),
+    scss: ExtractTextPlugin.extract({
       loader: 'css-loader!sass-loader',
       fallbackLoader: 'vue-style-loader' // <- this is a dep of vue-loader
     })

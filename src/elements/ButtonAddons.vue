@@ -1,18 +1,21 @@
 <template>
-  <button :class="classes">
+  <control class="has-addons">
     <slot></slot>
-  </button>
+  </control>
 </template>
 
 <script>
-import baseButton from './baseButton'
+import Control from './Control.vue'
 
 export default {
-  mixins: [baseButton]
+  components: {
+    Control
+  }
 }
 </script>
 
 <style lang="scss">
 @import '~bulma/sass/utilities/_all';
 @import '~bulma/sass/elements/button.sass';
+@import '~bulma/sass/elements/form.sass';
 </style>

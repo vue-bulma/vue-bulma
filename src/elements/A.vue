@@ -1,7 +1,7 @@
 <template>
-  <button :class="classes">
+  <a :class="classes">
     <slot></slot>
-  </button>
+  </a>
 </template>
 
 <script>

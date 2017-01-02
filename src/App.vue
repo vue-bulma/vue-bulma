@@ -74,6 +74,8 @@
       <vue-bulma-button>Cancel</vue-bulma-button>
       <vue-bulma-button type="danger">Delete post</vue-bulma-button>
     </vue-bulma-group>
+
+    <vue-bulma-tag type="dark">Tag Label</vue-bulma-tag>
   </div>
 </template>
 
@@ -87,7 +89,8 @@ const {
   VueBulmaContent,
   VueBulmaGroup,
   VueBulmaButtonAddons,
-  VueBulmaIcon
+  VueBulmaIcon,
+  VueBulmaTag
 } = elements
 
 export default {
@@ -98,7 +101,8 @@ export default {
     VueBulmaContent,
     VueBulmaButtonAddons,
     VueBulmaIcon,
-    VueBulmaGroup
+    VueBulmaGroup,
+    VueBulmaTag
   }
 }
 </script>

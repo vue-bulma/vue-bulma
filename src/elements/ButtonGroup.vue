@@ -1,20 +1,14 @@
-<template>
-  <button-group class="is-grouped">
-    <slot></slot>
-  </button-group>
-</template>
-
 <script>
 import Vue from 'vue'
 import Control from './Control.vue'
 
-const ButtonGroup = Vue.component('button-group', {
+const ButtonGroup = Vue.component('vue-bulma-button-group', {
   components: {
     Control
   },
 
   render (h) {
-    return h('control', this.list.map(item => h('control', [item])))
+    return h('control', { 'class': 'is-grouped' }, this.list.map(item => h('control', [item])))
   },
 
   computed: {
@@ -24,11 +18,7 @@ const ButtonGroup = Vue.component('button-group', {
   }
 })
 
-export default {
-  components: {
-    ButtonGroup
-  }
-}
+export default ButtonGroup
 </script>
 
 <style lang="scss">

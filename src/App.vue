@@ -78,6 +78,7 @@
     <vue-bulma-tag type="dark">Tag Label</vue-bulma-tag>
 
     <vue-bulma-title :level="6" :size="2">Title</vue-bulma-title>
+    <vue-bulma-subtitle :level="2" :size="6">Title</vue-bulma-subtitle>
   </div>
 </template>
 
@@ -93,7 +94,8 @@ const {
   VueBulmaButtonAddons,
   VueBulmaIcon,
   VueBulmaTag,
-  VueBulmaTitle
+  VueBulmaTitle,
+  VueBulmaSubtitle,
 } = elements
 
 export default {
@@ -106,7 +108,8 @@ export default {
     VueBulmaIcon,
     VueBulmaGroup,
     VueBulmaTag,
-    VueBulmaTitle
+    VueBulmaTitle,
+    VueBulmaSubtitle
   }
 }
 </script>

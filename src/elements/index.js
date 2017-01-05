@@ -9,6 +9,7 @@ import Control from './Control.vue'
 import Label from './Label.vue'
 import Tag from './Tag.vue'
 import Title from './Title.vue'
+import Subtitle from './Subtitle.vue'
 
 const vueBulma = {
   VueBulmaA: A,
@@ -21,7 +22,8 @@ const vueBulma = {
   VueBulmaControl: Control,
   VueBulmaLabel: Label,
   VueBulmaTag: Tag,
-  VueBulmaTitle: Title
+  VueBulmaTitle: Title,
+  VueBulmaSubtitle: Subtitle
 }
 
 export default vueBulma

@@ -78,11 +78,40 @@
     <vue-bulma-tag type="dark">Tag Label</vue-bulma-tag>
 
     <vue-bulma-title :level="6" :size="2">Title</vue-bulma-title>
+
+    <vue-bulma-level>
+      <div slot="left">
+        <div>
+          <p class="subtitle is-5">
+            <strong>123</strong> posts
+          </p>
+        </div>
+        <div aligned="center">
+          <p class="control has-addons">
+            <input class="input" type="text" placeholder="Find a post">
+            <button class="button">
+              Search
+            </button>
+          </p>
+        </div>
+      </div>
+      <div slot="right">
+        <p><strong>All</strong></p>
+        <p><a>Published</a></p>
+        <p><a>Drafts</a></p>
+        <p><a>Deleted</a></p>
+        <p><a class="button is-success">New</a></p>
+      </div>
+      <div>
+        <vue-bulma-title :level="6" :size="2">Title</vue-bulma-title>
+      </div>
+    </vue-bulma-level>
   </div>
 </template>
 
 <script>
 import elements from './elements'
+import components from './components'
 
 const {
   VueBulmaButton,
@@ -96,6 +125,10 @@ const {
   VueBulmaTitle
 } = elements
 
+const {
+  VueBulmaLevel
+} = components
+
 export default {
   components: {
     VueBulmaA,
@@ -106,7 +139,8 @@ export default {
     VueBulmaIcon,
     VueBulmaGroup,
     VueBulmaTag,
-    VueBulmaTitle
+    VueBulmaTitle,
+    VueBulmaLevel
   }
 }
 </script>

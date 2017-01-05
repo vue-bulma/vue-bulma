@@ -26,7 +26,7 @@
     "dev": "cross-env NODE_ENV=development node build/dev-server.js"
   },
   "dependencies": {
-    "bulma": "0.2.3"
+    "bulma": "0.3.0"
   },
   "devDependencies": {
     "autoprefixer": "6.6.1",

@@ -191,7 +191,7 @@ asynckit@^0.4.0:
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/asynckit/-/asynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"
 
-autoprefixer@6.6.1:
+autoprefixer@6.6.1, autoprefixer@^6.3.1:
   version "6.6.1"
   resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-6.6.1.tgz#11a4077abb4b313253ec2f6e1adb91ad84253519"
   dependencies:
@@ -200,17 +200,6 @@ autoprefixer@6.6.1:
     normalize-range "^0.1.2"
     num2fraction "^1.2.2"
     postcss "^5.2.8"
-    postcss-value-parser "^3.2.3"
-
-autoprefixer@^6.3.1:
-  version "6.6.0"
-  resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-6.6.0.tgz#d5b347ebbaf79e79d30b81c0ee3e482b288527bf"
-  dependencies:
-    browserslist "~1.5.1"
-    caniuse-db "^1.0.30000602"
-    normalize-range "^0.1.2"
-    num2fraction "^1.2.2"
-    postcss "^5.2.6"
     postcss-value-parser "^3.2.3"
 
 aws-sign2@~0.6.0:
@@ -401,9 +390,9 @@ builtin-status-codes@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/builtin-status-codes/-/builtin-status-codes-2.0.0.tgz#6f22003baacf003ccd287afe6872151fddc58579"
 
-bulma@0.2.3:
-  version "0.2.3"
-  resolved "https://registry.yarnpkg.com/bulma/-/bulma-0.2.3.tgz#086394c65e74aa8081e658bdcf6742f81107936e"
+bulma@0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/bulma/-/bulma-0.3.0.tgz#7ceafabead209bbd025c21d0a726644b6e161b98"
 
 camel-case@3.0.x:
   version "3.0.0"
@@ -431,11 +420,7 @@ camelcase@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-3.0.0.tgz#32fc4b9fcdaf845fcdf7e73bb97cac2261f0ab0a"
 
-caniuse-db@^1.0.30000601, caniuse-db@^1.0.30000602:
-  version "1.0.30000602"
-  resolved "https://registry.yarnpkg.com/caniuse-db/-/caniuse-db-1.0.30000602.tgz#06b2cbfb6c3aeef7ddb18cd588043549ad1a2d4e"
-
-caniuse-db@^1.0.30000604:
+caniuse-db@^1.0.30000601, caniuse-db@^1.0.30000604:
   version "1.0.30000604"
   resolved "https://registry.yarnpkg.com/caniuse-db/-/caniuse-db-1.0.30000604.tgz#bc139270a777564d19c0aadcd832b491d093bda5"
 
@@ -2554,7 +2539,7 @@ postcss-zindex@^2.0.1:
     postcss "^5.0.4"
     uniqs "^2.0.0"
 
-postcss@^5.0.10, postcss@^5.0.11, postcss@^5.0.12, postcss@^5.0.13, postcss@^5.0.14, postcss@^5.0.16, postcss@^5.0.2, postcss@^5.0.4, postcss@^5.0.5, postcss@^5.0.6, postcss@^5.0.8, postcss@^5.2.6, postcss@^5.2.8:
+postcss@^5.0.10, postcss@^5.0.11, postcss@^5.0.12, postcss@^5.0.13, postcss@^5.0.14, postcss@^5.0.16, postcss@^5.0.2, postcss@^5.0.4, postcss@^5.0.5, postcss@^5.0.6, postcss@^5.0.8, postcss@^5.2.8:
   version "5.2.8"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-5.2.8.tgz#05720c49df23c79bda51fd01daeb1e9222e94390"
   dependencies:

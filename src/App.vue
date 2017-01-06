@@ -82,11 +82,57 @@
 
     <vue-bulma-title :level="6" :size="2">Title</vue-bulma-title>
     <vue-bulma-subtitle :level="2" :size="6">Title</vue-bulma-subtitle>
+
+    <vue-bulma-level>
+      <div slot="left">
+        <vue-bulma-level-item>
+          <p class="subtitle is-5">
+            <strong>123</strong> posts
+          </p>
+        </vue-bulma-level-item>
+        <vue-bulma-level-item  aligned="center">
+          <p class="control has-addons">
+            <input class="input" type="text" placeholder="Find a post">
+            <button class="button">
+              Search
+            </button>
+          </p>
+        </vue-bulma-level-item>
+      </div>
+      <div slot="right">
+        <vue-bulma-level-item element="p">
+          <strong>All</strong>
+        </vue-bulma-level-item>
+        <vue-bulma-level-item element="p">
+          <a>Published</a>
+        </vue-bulma-level-item>
+        <vue-bulma-level-item element="p">
+          <a>Drafts</a>
+        </vue-bulma-level-item>
+        <vue-bulma-level-item element="p">
+          <a class="button is-success">New</a>
+        </vue-bulma-level-item>
+        <vue-bulma-level-item element="p" aligned="right">
+          <div>
+            <p class="heading">Following</p>
+            <p class="title">123</p>
+          </div>
+        </vue-bulma-level-item>
+      </div>
+      <vue-bulma-level-item>
+        <vue-bulma-title :level="6" :size="2">Title</vue-bulma-title>
+      </vue-bulma-level-item>
+      <vue-bulma-level-item>
+        <vue-bulma-subtitle :level="6" :size="4">Sub Title</vue-bulma-subtitle>
+      </vue-bulma-level-item>
+    </vue-bulma-level>
+
   </div>
 </template>
 
 <script>
 import elements from './elements'
+import components from './components'
 
 const {
   VueBulmaButton,
@@ -102,6 +148,11 @@ const {
   VueBulmaDelete
 } = elements
 
+const {
+  VueBulmaLevel,
+  VueBulmaLevelItem
+} = components
+
 export default {
   components: {
     VueBulmaA,
@@ -114,7 +165,9 @@ export default {
     VueBulmaTag,
     VueBulmaTitle,
     VueBulmaSubtitle,
-    VueBulmaDelete
+    VueBulmaDelete,
+    VueBulmaLevel,
+    VueBulmaLevelItem
   }
 }
 </script>

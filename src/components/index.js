@@ -1,7 +1,8 @@
-import Level from './Level.vue'
+import { Level, LevelItem } from './Level'
 
 const vueBulmaComponents = {
-  VueBulmaLevel: Level
+  VueBulmaLevel: Level,
+  VueBulmaLevelItem: LevelItem
 }
 
 export default vueBulmaComponents

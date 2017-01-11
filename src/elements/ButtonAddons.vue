@@ -1,5 +1,5 @@
 <template>
-  <control class="has-addons">
+  <control hasAddons>
     <slot></slot>
   </control>
 </template>

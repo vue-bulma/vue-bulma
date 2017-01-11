@@ -8,7 +8,11 @@ const ButtonGroup = Vue.component('vue-bulma-button-group', {
   },
 
   render (h) {
-    return h('control', { 'class': 'is-grouped' }, this.list.map(item => h('control', [item])))
+    return h('control', { 'class': 'is-grouped' }, this.list.map(item => {
+      return item.componentOptions.tag === 'vue-bulma-button-addons'
+        ? item
+        : h('control', [item])
+    }))
   },
 
   computed: {

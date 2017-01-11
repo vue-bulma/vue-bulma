@@ -7,14 +7,16 @@
 <script>
 export default {
   props: {
+    hasAddons: Boolean,
     hasIcon: Boolean,
     hasIconRight: Boolean
   },
 
   computed: {
     classes () {
-      const { hasIcon, hasIconRight } = this
+      const { hasAddons, hasIcon, hasIconRight } = this
       const obj = {
+        'has-addons': hasAddons,
         'has-icon': hasIcon,
         'has-icon-right': hasIconRight
       }

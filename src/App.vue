@@ -54,25 +54,24 @@
       <p>Cras in nibh lacinia, venenatis nisi et, auctor urna. Donec pulvinar lacus sed diam dignissim, ut eleifend eros accumsan. Phasellus non tortor eros. Ut sed rutrum lacus. Etiam purus nunc, scelerisque quis enim vitae, malesuada ultrices turpis. Nunc vitae maximus purus, nec consectetur dui. Suspendisse euismod, elit vel rutrum commodo, ipsum tortor maximus dui, sed varius sapien odio vitae est. Etiam at cursus metus.</p>
     </vue-bulma-content>
 
-    <vue-bulma-button-addons>
-      <vue-bulma-button>
-        <vue-bulma-icon type="fa fa-align-left" size="small"></vue-bulma-icon>
-        <span>Left</span>
-      </vue-bulma-button>
-      <vue-bulma-button>
-        <vue-bulma-icon type="fa fa-align-center" size="small"></vue-bulma-icon>
-        <span>Center</span>
-      </vue-bulma-button>
-      <vue-bulma-button>
-        <vue-bulma-icon type="fa fa-align-right" size="small"></vue-bulma-icon>
-        <span>Right</span>
-      </vue-bulma-button>
-    </vue-bulma-button-addons>
-
     <vue-bulma-group>
       <vue-bulma-button type="primary">Save changes</vue-bulma-button>
       <vue-bulma-button>Cancel</vue-bulma-button>
       <vue-bulma-button type="danger">Delete post</vue-bulma-button>
+      <vue-bulma-button-addons>
+        <vue-bulma-button>
+          <vue-bulma-icon type="fa fa-align-left" size="small"></vue-bulma-icon>
+          <span>Left</span>
+        </vue-bulma-button>
+        <vue-bulma-button>
+          <vue-bulma-icon type="fa fa-align-center" size="small"></vue-bulma-icon>
+          <span>Center</span>
+        </vue-bulma-button>
+        <vue-bulma-button>
+          <vue-bulma-icon type="fa fa-align-right" size="small"></vue-bulma-icon>
+          <span>Right</span>
+        </vue-bulma-button>
+      </vue-bulma-button-addons>
     </vue-bulma-group>
 
     <vue-bulma-tag type="dark">

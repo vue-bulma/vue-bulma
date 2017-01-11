@@ -9,19 +9,20 @@ export default {
   props: {
     type: {
       type: String,
-      validator: value => ['dark', 'primary', 'info', 'success', 'warning', 'danger'].includes(value)
+      validator: value => ['primary', 'info', 'success', 'warning', 'danger', 'white', 'light', 'dark', 'black'].includes(value)
     },
     size: {
       type: String,
-      validator: value => ['small', 'medium', 'large'].includes(value)
+      validator: value => ['medium', 'large'].includes(value)
     }
   },
 
   computed: {
     classes () {
-      const { type } = this
+      const { type, size } = this
       const obj = {
-        [`is-${type}`]: !!type
+        [`is-${type}`]: !!type,
+        [`is-${size}`]: !!size
       }
       return  obj
     }

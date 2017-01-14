@@ -14,5 +14,5 @@ export default {
 
 <style lang="scss">
 @import '~bulma/sass/utilities/_all';
-@import '~bulma/sass/elements/button.sass';
+@import '~bulma/sass/elements/button';
 </style>

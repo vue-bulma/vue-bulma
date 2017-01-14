@@ -27,5 +27,5 @@ export default {
 
 <style lang="scss">
 @import '~bulma/sass/utilities/_all';
-@import '~bulma/sass/elements/content.sass';
+@import '~bulma/sass/elements/content';
 </style>

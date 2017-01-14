@@ -11,6 +11,7 @@ import Tag from './Tag.vue'
 import Title from './Title.vue'
 import Subtitle from './Subtitle.vue'
 import Delete from './Delete.vue'
+import { Table, TableHeader } from './table'
 
 const vueBulma = {
   VueBulmaA: A,
@@ -25,7 +26,9 @@ const vueBulma = {
   VueBulmaTag: Tag,
   VueBulmaTitle: Title,
   VueBulmaSubtitle: Subtitle,
-  VueBulmaDelete: Delete
+  VueBulmaDelete: Delete,
+  VueBulmaTable: Table,
+  VueBulmaTableHeader: TableHeader
 }
 
 export default vueBulma

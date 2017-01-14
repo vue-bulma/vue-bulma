@@ -43,7 +43,7 @@ export default Level
 
 <style lang="scss">
 @import '~bulma/sass/utilities/_all';
-@import '~bulma/sass/components/level.sass';
+@import '~bulma/sass/components/level';
 
 .level-item {
   -webkit-box-align: center;

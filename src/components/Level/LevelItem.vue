@@ -31,5 +31,5 @@ export default LevelItem
 
 <style lang="scss">
 @import '~bulma/sass/utilities/_all';
-@import '~bulma/sass/components/level.sass';
+@import '~bulma/sass/components/level';
 </style>

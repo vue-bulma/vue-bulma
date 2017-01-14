@@ -30,5 +30,5 @@ export default Subtitle
 
 <style lang="scss">
 @import '~bulma/sass/utilities/_all';
-@import '~bulma/sass/elements/title.sass';
+@import '~bulma/sass/elements/title';
 </style>

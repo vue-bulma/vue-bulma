@@ -126,6 +126,21 @@
       </vue-bulma-level-item>
     </vue-bulma-level>
 
+    <vue-bulma-table>
+      <vue-bulma-table-header>
+        <tr>
+          <th>One</th>
+          <th>Two</th>
+        </tr>
+      </vue-bulma-table-header>
+      <tr>
+        <td>Three</td>
+        <td>Four</td>
+      </tr>
+      <tfoot slot="footer"></tfoot>
+    </vue-bulma-table>
+
+    <vue-bulma-pagination align="centered" :totalCount="85" :page="11" :perPage="5"></vue-bulma-pagination>
   </div>
 </template>
 
@@ -144,12 +159,15 @@ const {
   VueBulmaTag,
   VueBulmaTitle,
   VueBulmaSubtitle,
-  VueBulmaDelete
+  VueBulmaDelete,
+  VueBulmaTable,
+  VueBulmaTableHeader
 } = elements
 
 const {
   VueBulmaLevel,
-  VueBulmaLevelItem
+  VueBulmaLevelItem,
+  VueBulmaPagination
 } = components
 
 export default {
@@ -166,7 +184,10 @@ export default {
     VueBulmaSubtitle,
     VueBulmaDelete,
     VueBulmaLevel,
-    VueBulmaLevelItem
+    VueBulmaLevelItem,
+    VueBulmaTable,
+    VueBulmaTableHeader,
+    VueBulmaPagination
   }
 }
 </script>

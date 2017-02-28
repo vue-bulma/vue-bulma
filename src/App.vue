@@ -182,6 +182,20 @@
         <vue-bulma-subtitle :level="6" :size="4">Sub Title</vue-bulma-subtitle>
       </vue-bulma-level-item>
     </vue-bulma-level>
+
+    <div style="width: 500px; padding: 20px 10px;">
+      <vue-bulma-message type="primary">
+        <p slot="message-header">Hello World</p>
+        <vue-bulma-delete slot="message-header"></vue-bulma-delete>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        <strong>Pellentesque risus mi</strong>
+        , tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum 
+        <a>felis venenatis</a> 
+        efficitur. Aenean ac 
+        <em>eleifend lacus</em>
+        , in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.
+      </vue-bulma-message>
+    </div>
   </div>
 </template>
 
@@ -206,7 +220,8 @@ const {
 const {
   VueBulmaLevel,
   VueBulmaLevelItem,
-  VueBulmaMedia
+  VueBulmaMedia,
+  VueBulmaMessage
 } = components
 
 export default {
@@ -224,7 +239,8 @@ export default {
     VueBulmaDelete,
     VueBulmaLevel,
     VueBulmaLevelItem,
-    VueBulmaMedia
+    VueBulmaMedia,
+    VueBulmaMessage
   }
 }
 </script>

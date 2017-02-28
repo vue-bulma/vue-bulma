@@ -12,16 +12,8 @@ const webpackConfig = Object.assign({}, baseConfig, {
   devtool: '#eval-source-map',
   plugins: [
     // https://github.com/glenjamin/webpack-hot-middleware#installation--usage
-    new webpack.optimize.OccurrenceOrderPlugin(),
     new webpack.HotModuleReplacementPlugin(),
-    new webpack.NoErrorsPlugin()
-    // extract vendor chunks for better caching
-    /*
-    new webpack.optimize.CommonsChunkPlugin({
-      name: 'vendor',
-      filename: 'vendor.js'
-    }),
-    */
+    new webpack.NoEmitOnErrorsPlugin()
   ].concat(baseConfig.plugins)
 })
 

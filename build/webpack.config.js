@@ -5,12 +5,18 @@ const webpack = require('webpack')
 const HTMLPlugin = require('html-webpack-plugin')
 const vueConfig = require('./vue-loader.config')
 
+const isProduction = process.env.NODE_ENV === 'production'
+
 const config = {
 
   devtool: '#source-map',
 
   entry: {
-    app: './src/main.js'
+    app: './src/main.js',
+    vendor: [
+      'es6-promise',
+      'vue'
+    ]
   },
 
   output: {
@@ -57,7 +63,6 @@ const config = {
     new webpack.DefinePlugin({
       'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV || 'development')
     }),
-    new webpack.optimize.OccurrenceOrderPlugin(),
     // extract vendor chunks for better caching
     new webpack.optimize.CommonsChunkPlugin({
       name: 'vendor'
@@ -67,19 +72,12 @@ const config = {
       template: 'src/index.html'
     })
   ],
-
   performance: {
-    hints: process.env.NODE_ENV === 'production'
+    hints: isProduction ? 'warning' : false
   }
-
 }
 
-if (process.env.NODE_ENV === 'development') {
-  vueConfig.loaders = {
-    sass: ['vue-style-loader', 'css-loader', 'sass-loader?indentedSyntax'].join('!'),
-    scss: ['vue-style-loader', 'css-loader', 'sass-loader'].join('!')
-  }
-} else if (process.env.NODE_ENV === 'production') {
+if (isProduction) {
   const ExtractTextPlugin = require('extract-text-webpack-plugin')
   // Use ExtractTextPlugin to extract CSS into a single file
   // so it's applied on initial render.
@@ -88,12 +86,12 @@ if (process.env.NODE_ENV === 'development') {
   // so they are extracted.
   vueConfig.loaders = {
     sass: ExtractTextPlugin.extract({
-      loader: 'css-loader!sass-loader?indentedSyntax',
-      fallbackLoader: 'vue-style-loader' // <- this is a dep of vue-loader
+      use: 'css-loader!sass-loader?indentedSyntax',
+      fallback: 'vue-style-loader' // <- this is a dep of vue-loader
     }),
     scss: ExtractTextPlugin.extract({
-      loader: 'css-loader!sass-loader',
-      fallbackLoader: 'vue-style-loader' // <- this is a dep of vue-loader
+      use: 'css-loader!sass-loader',
+      fallback: 'vue-style-loader' // <- this is a dep of vue-loader
     })
   }
 
@@ -110,6 +108,11 @@ if (process.env.NODE_ENV === 'development') {
       }
     })
   )
+} else {
+  vueConfig.loaders = {
+    sass: ['vue-style-loader', 'css-loader', 'sass-loader?indentedSyntax'].join('!'),
+    scss: ['vue-style-loader', 'css-loader', 'sass-loader'].join('!')
+  }
 }
 
 module.exports = config

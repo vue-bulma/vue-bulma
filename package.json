@@ -1,0 +1,31 @@
+{
+  "name": "vue-bulma",
+  "version": "0.0.1",
+  "description": "A modern UI framework based on Vue and Bulma",
+  "main": "index.js",
+  "dependencies": {
+    "bulma": "0.5.0"
+  },
+  "devDependencies": {
+    "vue": "2.4.2"
+  },
+  "peerDependencies": {
+    "react": "^2.4.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "vue-bulma/vue-bulma",
+  "keywords": [
+    "bulma",
+    "vue",
+    "ui",
+    "framework"
+  ],
+  "author": "Fangdun Cai <cfddream@gmail.com> (fundun.me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vue-bulma/vue-bulma/issues"
+  },
+  "homepage": "https://github.com/vue-bulma/vue-bulma#readme"
+}

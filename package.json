@@ -1,43 +1,7 @@
 {
   "name": "vue-bulma",
-  "version": "0.0.1",
-  "description": "A modern UI framework based on Vue and Bulma",
-  "main": "index.js",
-  "repository": "vue-bulma/vue-bulma",
-  "license": "MIT",
-  "author": "Fangdun Cai <cfddream@gmail.com> (fundun.me)",
-  "keywords": [
-    "bulma",
-    "vue",
-    "ui",
-    "framework"
-  ],
-  "scripts": {
-    "precommit": "lint-staged",
-    "lint": "xo"
-  },
-  "xo": {
-    "extends": "prettier"
-  },
-  "lint-staged": {
-    "*.js": [
-      "npm run lint",
-      "prettier --single-quote --no-semi --write",
-      "git add"
-    ]
-  },
-  "dependencies": {
-    "bulma": "0.5.1"
-  },
+  "private": true,
   "devDependencies": {
-    "eslint-config-prettier": "2.3.0",
-    "husky": "0.14.3",
-    "lint-staged": "4.0.3",
-    "prettier": "1.5.3",
-    "vue": "2.4.2",
-    "xo": "0.18.2"
-  },
-  "peerDependencies": {
-    "vue": "^2.4.2"
+    "lerna": "^3.10.5"
   }
 }

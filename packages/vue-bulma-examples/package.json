@@ -4,8 +4,7 @@
   "description": "> TODO: description",
   "author": "Fangdun Cai <cfddream@gmail.com>",
   "homepage": "https://github.com/vue-bulma/vue-bulma#readme",
-  "license": "ISC",
-  "main": "lib/vue-bulma-examples.js",
+  "license": "MIT",
   "files": [
     "src",
     "dist"

@@ -1,0 +1,23 @@
+{
+  "name": "vue-bulma-columns",
+  "version": "0.0.0",
+  "description": "The power of Flexbox in a simple interface",
+  "keywords": [
+    "vue",
+    "bulma",
+    "flexbox",
+    "columns",
+    "column"
+  ],
+  "author": "Fangdun Cai <cfddream@gmail.com>",
+  "homepage": "https://github.com/vue-bulma/vue-bulma/packages/vue-bulma-columns#readme",
+  "license": "MIT",
+  "main": "src/main.js",
+  "files": [
+    "src"
+  ],
+  "dependencies": {
+    "bulma": "^0.7.2",
+    "vue-bulma": "^0.0.0"
+  }
+}

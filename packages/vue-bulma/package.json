@@ -1,0 +1,26 @@
+{
+  "name": "vue-bulma",
+  "version": "0.0.0",
+  "description": "A modern UI framework based on Vue and Bulma",
+  "keywords": [
+    "vue",
+    "bulma"
+  ],
+  "author": "Fangdun Cai <cfddream@gmail.com>",
+  "homepage": "https://github.com/vue-bulma/vue-bulma",
+  "license": "MIT",
+  "main": "src/main.js",
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vue-bulma/vue-bulma.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vue-bulma/vue-bulma/issues"
+  },
+  "dependencies": {
+    "vue-bulma-columns": "^0.0.0"
+  }
+}

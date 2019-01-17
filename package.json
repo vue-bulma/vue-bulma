@@ -1,7 +1,20 @@
 {
   "name": "vue-bulma",
   "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
   "devDependencies": {
-    "lerna": "^3.10.5"
+    "@vue/cli-service": "^3.3.0",
+    "bulma": "^0.7.2",
+    "lerna": "^3.10.5",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "vue": "^2.5.22",
+    "vue-template-compiler": "^2.5.22"
+  },
+  "scripts": {
+    "lerna": "lerna",
+    "bootstrap": "lerna bootstrap"
   }
 }

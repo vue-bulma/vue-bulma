@@ -1,0 +1,29 @@
+{
+  "name": "vue-bulma-examples",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Fangdun Cai <cfddream@gmail.com>",
+  "homepage": "https://github.com/vue-bulma/vue-bulma#readme",
+  "license": "ISC",
+  "main": "lib/vue-bulma-examples.js",
+  "files": [
+    "src",
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vue-bulma/vue-bulma.git"
+  },
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/vue-bulma/vue-bulma/issues"
+  },
+  "dependencies": {
+    "vue": "^2.5.22",
+    "vue-bulma": "^0.0.0"
+  }
+}

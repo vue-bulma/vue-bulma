@@ -30,11 +30,11 @@ for (const [key, value] of Object.entries(components)) {
 
 ### Lead Maintainers
 
-* [__Fangdun Cai__](https://github.com/fundon), <https://twitter.com/_fundon>, <https://www.npmjs.com/~fundon>
+* [__fundon__](https://github.com/fundon), <https://twitter.com/_fundon>, <https://www.npmjs.com/~fundon>
 
 ### Collaborators
 
-* [__Fangdun Cai__](https://github.com/fundon), <https://twitter.com/_fundon>, <https://www.npmjs.com/~fundon>
+* [__fundon__](https://github.com/fundon), <https://twitter.com/_fundon>, <https://www.npmjs.com/~fundon>
 
 ## License
 

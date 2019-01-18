@@ -31,6 +31,12 @@ for (const [key, value] of Object.entries(components)) {
 
 ## Development
 
+### Open Examples
+
+```
+yarn dev
+```
+
 ### Create a package
 
 ```

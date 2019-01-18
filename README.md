@@ -56,12 +56,6 @@ touch src/style.scss
 lerna add vue-bulma-container packages/vue-bulma/
 ```
 
-### Add to `vue-bulma-examples`
-
-```
-lerna add vue-bulma-container packages/vue-bulma-examples/
-```
-
 ## Team
 
 ### Lead Maintainers

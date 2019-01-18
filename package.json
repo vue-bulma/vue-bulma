@@ -15,6 +15,7 @@
   },
   "scripts": {
     "lerna": "lerna",
-    "bootstrap": "lerna bootstrap"
+    "bootstrap": "lerna bootstrap",
+    "dev": "cd packages/vue-bulma-examples ; vue-cli-service serve"
   }
 }

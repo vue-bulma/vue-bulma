@@ -7,13 +7,13 @@ A modern UI framework based on [Vue] and [Bulma].
 Install with npm:
 
 ```
-npm i vue-bulma --save
+$ npm i vue-bulma --save
 ```
 
 Install with yarn:
 
 ```
-yarn add vue-bulma
+$ yarn add vue-bulma
 ```
 
 ### Example
@@ -31,29 +31,40 @@ for (const [key, value] of Object.entries(components)) {
 
 ## Development
 
-### Open Examples
+We use [Lerna] to manage multiple packages.
 
 ```
-yarn dev
+$ npm i lerna --global 
+```
+
+```
+$ yarn bootstrap
+```
+
+### Open Examples
+
+
+```
+$ yarn dev
 ```
 
 ### Create a package
 
 ```
 # vue-bulma-container
-lerna create vue-bulma-container
-lerna add vue packages/vue-bulma-container/
-lerna add bulma packages/vue-bulma-container/
-cd packages/vue-bulma-container/
-mkdir src
-touch src/main.js
-touch src/style.scss
+$ lerna create vue-bulma-container
+$ lerna add vue packages/vue-bulma-container/
+$ lerna add bulma packages/vue-bulma-container/
+$ cd packages/vue-bulma-container/
+$ mkdir src
+$ touch src/main.js
+$ touch src/style.scss
 ```
 
 ### Add to `vue-bulma`
 
 ```
-lerna add vue-bulma-container packages/vue-bulma/
+$ lerna add vue-bulma-container packages/vue-bulma/
 ```
 
 ## Team
@@ -72,3 +83,4 @@ Licensed under [MIT](./LICENSE).
 
 [vue]: https://vuejs.org
 [bulma]: https://bulma.io
+[lerna]: https://lernajs.io

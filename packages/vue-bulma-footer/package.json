@@ -1,0 +1,15 @@
+{
+  "name": "vue-bulma-footer",
+  "version": "0.0.0",
+  "description": "A simple responsive footer which can include anything: lists, headings, columns, icons, buttons, etc.",
+  "author": "Guoxiao Cai <a304775438@aliyun.com>",
+  "homepage": "https://github.com/vue-bulma/vue-bulma/packages/vue-bulma-footer#readme",
+  "license": "MIT",
+  "main": "src/main.js",
+  "files": [
+    "src"
+  ],
+  "dependencies": {
+    "bulma": "^0.7.2"
+  }
+}

@@ -7,6 +7,7 @@
         <vb-column />
         <vb-column />
       </vb-columns>
+      <vb-box>a</vb-box>
     </vb-container>
   </div>
 </template>

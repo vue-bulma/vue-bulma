@@ -1,0 +1,20 @@
+{
+  "name": "vue-bulma-box",
+  "version": "0.0.0",
+  "description": "A white box to contain other elements",
+  "keywords": [
+    "vue",
+    "bulma",
+    "box"
+  ],
+  "author": "LianHe Cai <86864065@qq.com>",
+  "homepage": "https://github.com/vue-bulma/vue-bulma/packages/vue-bulma-box#readme",
+  "license": "MIT",
+  "main": "src/main.js",
+  "files": [
+    "src"
+  ],
+  "dependencies": {
+    "bulma": "^0.7.2"
+  }
+}

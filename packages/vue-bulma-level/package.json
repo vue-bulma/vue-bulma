@@ -1,0 +1,16 @@
+{
+  "name": "vue-bulma-level",
+  "version": "0.0.0",
+  "description": "A multi-purpose horizontal level, which can contain almost any other element",
+  "author": "Guoxiao Cai <a304775438@aliyun.com>",
+  "homepage": "https://github.com/vue-bulma/vue-bulma/packages/vue-bulma-level#readme",
+  "license": "MIT",
+  "main": "src/main.js",
+  "files": [
+    "src"
+  ],
+  "dependencies": {
+    "bulma": "^0.7.2",
+    "vue-bulma-common": "^0.0.0"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "vue-bulma-common",
+  "version": "0.0.0",
+  "description": "Vue-bulma common",
+  "author": "Guoxiao Cai <a304775438@aliyun.com>",
+  "homepage": "https://github.com/vue-bulma/vue-bulma/packages/vue-bulma-common#readme",
+  "license": "MIT",
+  "main": "src/main.js",
+  "files": [
+    "src"
+  ]
+}

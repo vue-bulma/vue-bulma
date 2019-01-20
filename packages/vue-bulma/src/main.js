@@ -7,3 +7,5 @@ export { Level, LevelItem } from 'vue-bulma-level'
 export { default as Footer } from 'vue-bulma-footer'
 
 export { default as MediaObject } from 'vue-bulma-media-object'
+
+export { default as Hero } from 'vue-bulma-hero'

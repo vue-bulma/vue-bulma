@@ -8,7 +8,7 @@ export default {
       {
         class: 'box'
       },
-      $slots.default
+      this.$slots.default
     )
   }
 }

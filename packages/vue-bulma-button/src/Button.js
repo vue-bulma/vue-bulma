@@ -62,7 +62,7 @@ export default {
       {
         class: classes
       },
-      $slots.default
+      this.$slots.default
     )
   }
 }

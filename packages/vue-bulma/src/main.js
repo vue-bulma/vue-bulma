@@ -9,3 +9,5 @@ export { default as Footer } from 'vue-bulma-footer'
 export { default as MediaObject } from 'vue-bulma-media-object'
 
 export { default as Hero } from 'vue-bulma-hero'
+
+export { default as Section } from 'vue-bulma-section'

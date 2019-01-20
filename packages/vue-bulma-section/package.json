@@ -1,0 +1,15 @@
+{
+  "name": "vue-bulma-section",
+  "version": "0.0.0",
+  "description": "A simple container to divide your page into sections",
+  "author": "Guoxiao Cai <a304775438@aliyun.com>",
+  "homepage": "https://github.com/vue-bulma/vue-bulma/packages/vue-bulma-section#readme",
+  "license": "MIT",
+  "main": "src/main.js",
+  "files": [
+    "src"
+  ],
+  "dependencies": {
+    "bulma": "^0.7.2"
+  }
+}

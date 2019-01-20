@@ -57,12 +57,7 @@ export default {
     }
   },
   render(h) {
-    return h(
-      'button',
-      {
-        class: classes
-      },
-      this.$slots.default
-    )
+    const { classes, $slots } = this
+    return h('button', { class: classes }, $slots.default)
   }
 }

@@ -22,6 +22,7 @@
   },
   "dependencies": {
     "vue-bulma-box": "^0.0.0",
+    "vue-bulma-button": "^0.0.0",
     "vue-bulma-columns": "^0.0.0",
     "vue-bulma-container": "^0.0.0",
     "vue-bulma-footer": "^0.0.0",

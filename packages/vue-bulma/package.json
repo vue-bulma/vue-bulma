@@ -21,12 +21,14 @@
     "url": "https://github.com/vue-bulma/vue-bulma/issues"
   },
   "dependencies": {
+    "vue-bulma-box": "^0.0.0",
     "vue-bulma-columns": "^0.0.0",
     "vue-bulma-container": "^0.0.0",
     "vue-bulma-footer": "^0.0.0",
     "vue-bulma-hero": "^0.0.0",
     "vue-bulma-level": "^0.0.0",
     "vue-bulma-media-object": "^0.0.0",
-    "vue-bulma-section": "^0.0.0"
+    "vue-bulma-section": "^0.0.0",
+    "vue-bulma-tile": "^0.0.0"
   }
 }

@@ -1,0 +1,16 @@
+{
+  "name": "vue-bulma-tile",
+  "version": "0.0.0",
+  "description": "A single tile element to build 2-dimensional Metro-like, Pinterest-like, or whatever-you-like grids",
+  "author": "Guoxiao Cai <a304775438@aliyun.com>",
+  "homepage": "https://github.com/vue-bulma/vue-bulma#readme",
+  "license": "MIT",
+  "main": "src/main.js",
+  "files": [
+    "src"
+  ],
+  "dependencies": {
+    "bulma": "^0.7.2",
+    "vue-bulma-common": "^0.0.0"
+  }
+}

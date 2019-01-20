@@ -1,0 +1,20 @@
+{
+  "name": "vue-bulma-button",
+  "version": "0.0.0",
+  "description": "The classic button, in different colors, sizes, and states",
+  "keywords": [
+    "vue",
+    "bulma",
+    "button"
+  ],
+  "author": "LianHe Cai <minnancaitou@gmail.com>",
+  "homepage": "https://github.com/vue-bulma/vue-bulma/packages/vue-bulma-button#readme",
+  "license": "MIT",
+  "main": "src/main.js",
+  "files": [
+    "src"
+  ],
+  "dependencies": {
+    "bulma": "^0.7.2"
+  }
+}

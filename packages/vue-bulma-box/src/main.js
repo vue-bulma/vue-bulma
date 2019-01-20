@@ -3,6 +3,12 @@ import './style.scss'
 export default {
   name: 'vb-box',
   render(h) {
-    return h('div', $slots.default)
+    return h(
+      'div',
+      {
+        class: 'box'
+      },
+      $slots.default
+    )
   }
 }

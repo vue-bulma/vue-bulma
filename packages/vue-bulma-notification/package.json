@@ -1,14 +1,14 @@
 {
-  "name": "vue-bulma-image",
+  "name": "vue-bulma-notification",
   "version": "0.0.0",
-  "description": "A container for responsive images",
+  "description": "Bold notification blocks, to alert your users of something",
   "keywords": [
     "vue",
     "bulma",
-    "image"
+    "notification"
   ],
   "author": "LianHe Cai <minnancaitou@gmail.com>",
-  "homepage": "https://github.com/vue-bulma/vue-bulma/packages/vue-bulma-image#readme",
+  "homepage": "https://github.com/vue-bulma/vue-bulma/packages/vue-bulma-notification#readme",
   "license": "MIT",
   "main": "src/main.js",
   "files": [

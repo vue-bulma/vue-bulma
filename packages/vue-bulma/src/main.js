@@ -9,6 +9,8 @@ export { Button, ButtonAddons, ButtonGroup, ButtonList } from 'vue-bulma-button'
 
 export { default as Content } from 'vue-bulma-content'
 
+export { default as Delete } from 'vue-bulma-delete'
+
 // Layouts
 
 export { default as Container } from 'vue-bulma-container'

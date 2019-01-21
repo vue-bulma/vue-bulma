@@ -7,6 +7,8 @@ export { default as Box } from 'vue-bulma-box'
 
 export { Button, ButtonAddons, ButtonGroup, ButtonList } from 'vue-bulma-button'
 
+export { default as Content } from 'vue-bulma-content'
+
 // Layouts
 
 export { default as Container } from 'vue-bulma-container'

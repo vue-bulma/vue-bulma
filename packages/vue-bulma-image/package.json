@@ -1,0 +1,20 @@
+{
+  "name": "vue-bulma-image",
+  "version": "0.0.0",
+  "description": "A container for responsive images",
+  "keywords": [
+    "vue",
+    "bulma",
+    "image"
+  ],
+  "author": "LianHe Cai <minnancaitou@gmail.com>",
+  "homepage": "https://github.com/vue-bulma/vue-bulma/packages/vue-bulma-image#readme",
+  "license": "MIT",
+  "main": "src/main.js",
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "bulma": "^0.7.2"
+  }
+}

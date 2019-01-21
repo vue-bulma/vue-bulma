@@ -57,7 +57,11 @@ export default {
     }
   },
   render(h) {
-    const { classes, $slots } = this
-    return h('button', { class: classes }, $slots.default)
+    const { classes, handleClick, $slots } = this
+    return h(
+      'button',
+      { class: classes, on: { click: handleClick } },
+      $slots.default
+    )
   }
 }

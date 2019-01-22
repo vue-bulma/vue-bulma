@@ -1,0 +1,21 @@
+{
+  "name": "vue-bulma-navbar",
+  "version": "0.0.0",
+  "description": "A responsive horizontal navbar that can support images, links, buttons, and dropdowns",
+  "keywords": [
+    "vue",
+    "bulma",
+    "navbar"
+  ],
+  "author": "Guoxiao Cai <a304775438@aliyun.com>",
+  "homepage": "https://github.com/vue-bulma/vue-bulma#readme",
+  "license": "MIT",
+  "main": "src/main.js",
+  "files": [
+    "src"
+  ],
+  "dependencies": {
+    "bulma": "^0.7.2",
+    "vue-bulma-common": "^0.0.0"
+  }
+}

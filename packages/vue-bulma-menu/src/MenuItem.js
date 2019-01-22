@@ -45,8 +45,8 @@ export default {
     labelClasses() {
       const { rootMenu, index, $slots } = this
       return {
-        'menu-item-label': true,
-        'is-active': this.rootMenu.actived === this.index,
+        'vb-menu-item__label': true,
+        'is-active': rootMenu.actived === index,
         'has-submenu': !!$slots.submenu
       }
     },

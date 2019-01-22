@@ -1,17 +1,21 @@
-@import '~bulma/sass/utilities/_all';
-@import '~bulma/sass/base/_all';
-@import '~bulma/sass/components/menu';
+@import '~bulma/sass/utilities/initial-variables.sass';
+@import '~bulma/sass/utilities/derived-variables.sass';
+@import '~bulma/sass/components/menu.sass';
 
 $menu-collapse-arrow: $link !default;
 
 .menu {
   li {
-    .menu-item-label {
+    .vb-menu-item__icon {
+      margin-right: 5px;
+    }
+    .vb-menu-item__label {
       position: relative;
       align-items: center;
       display: flex;
+      cursor: pointer;
     }
-    .has-submenu:after {
+    .vb-menu-item__label.has-submenu:after {
       content: " ";
       border: 3px solid transparent;
       border-radius: 2px;
@@ -32,7 +36,7 @@ $menu-collapse-arrow: $link !default;
       transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
     }
     &.submenu-opened {
-      .has-submenu:after {
+      .vb-menu-item__label.has-submenu:after {
         transform: rotate(135deg);
       }
     }

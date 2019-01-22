@@ -16,15 +16,15 @@ $menu-collapse-arrow: $link !default;
       cursor: pointer;
     }
     .vb-menu-item__label.has-submenu:after {
-      content: " ";
+      content: ' ';
       border: 3px solid transparent;
       border-radius: 2px;
       border-right: 0;
       border-top: 0;
       display: block;
-      height: .625em;
-      width: .625em;
-      margin-top: -.375em;
+      height: 0.625em;
+      width: 0.625em;
+      margin-top: -0.375em;
       right: 1.125em;
       pointer-events: none;
       position: absolute;

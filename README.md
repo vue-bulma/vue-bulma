@@ -48,6 +48,12 @@ $ yarn bootstrap
 $ yarn dev
 ```
 
+### Format packages
+
+```
+$ yarn run format
+```
+
 ### Create a package
 
 ```

@@ -15,6 +15,8 @@ export { default as Icon } from 'vue-bulma-icon'
 
 export { default as Progress } from 'vue-bulma-progress'
 
+export { default as Notification } from 'vue-bulma-notification'
+
 // Layouts
 
 export { default as Container } from 'vue-bulma-container'

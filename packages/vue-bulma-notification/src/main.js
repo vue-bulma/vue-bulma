@@ -1,3 +1,4 @@
+import './style.scss'
 import colorProps from 'vue-bulma-common/src/mixins/color.js'
 
 export default {

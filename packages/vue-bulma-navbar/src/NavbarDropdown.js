@@ -89,7 +89,8 @@ export default {
         'div',
         { class: classes },
         nodes.map(node => {
-          return node && node.divided
+          const { attrs = {} } = node.data || {}
+          return attrs.divided || attrs.divided === ''
             ? [h('hr', { class: 'navbar-divider' }, []), node]
             : node
         })

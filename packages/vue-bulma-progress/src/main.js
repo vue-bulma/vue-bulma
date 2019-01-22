@@ -1,3 +1,4 @@
+import './style.scss'
 import colorProps from 'vue-bulma-common/src/mixins/color'
 import sizeProps from 'vue-bulma-common/src/mixins/size'
 
@@ -29,7 +30,7 @@ export default {
       'progress',
       {
         class: classes,
-        max: max
+        max
       },
       $slots.default
     )

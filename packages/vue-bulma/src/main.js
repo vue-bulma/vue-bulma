@@ -13,6 +13,8 @@ export { default as Delete } from 'vue-bulma-delete'
 
 export { default as Icon } from 'vue-bulma-icon'
 
+export { default as Progress } from 'vue-bulma-progress'
+
 // Layouts
 
 export { default as Container } from 'vue-bulma-container'

@@ -32,4 +32,6 @@ export { default as Footer } from 'vue-bulma-footer'
 export { default as Tile } from 'vue-bulma-tile'
 
 // Components
+export { Menu, MenuList, MenuItem } from 'vue-bulma-menu'
+
 export { Navbar, NavbarDropdown, NavbarItem } from 'vue-bulma-navbar'

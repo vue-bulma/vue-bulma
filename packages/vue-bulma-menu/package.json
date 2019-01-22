@@ -1,0 +1,21 @@
+{
+  "name": "vue-bulma-menu",
+  "version": "0.0.0",
+  "description": "A simple vertical navigation",
+  "keywords": [
+    "vue",
+    "bulma",
+    "menu"
+  ],
+  "author": "Guoxiao Cai <a304775438@aliyun.com>",
+  "homepage": "https://github.com/vue-bulma/vue-bulma/packages/vue-bulma-menu#readme",
+  "license": "MIT",
+  "main": "src/main.js",
+  "files": [
+    "src"
+  ],
+  "dependencies": {
+    "bulma": "^0.7.2",
+    "vue-bulma-icon": "^0.0.0"
+  }
+}

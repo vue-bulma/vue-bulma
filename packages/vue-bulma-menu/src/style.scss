@@ -1,0 +1,40 @@
+@import '~bulma/sass/utilities/_all';
+@import '~bulma/sass/base/_all';
+@import '~bulma/sass/components/menu';
+
+$menu-collapse-arrow: $link !default;
+
+.menu {
+  li {
+    .menu-item-label {
+      position: relative;
+      align-items: center;
+      display: flex;
+    }
+    .has-submenu:after {
+      content: " ";
+      border: 3px solid transparent;
+      border-radius: 2px;
+      border-right: 0;
+      border-top: 0;
+      display: block;
+      height: .625em;
+      width: .625em;
+      margin-top: -.375em;
+      right: 1.125em;
+      pointer-events: none;
+      position: absolute;
+      top: 50%;
+      border-color: $menu-collapse-arrow;
+      transform: rotate(-45deg);
+      -webkit-transform-origin: 35% 65%;
+      transform-origin: 35% 65%;
+      transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
+    }
+    &.submenu-opened {
+      .has-submenu:after {
+        transform: rotate(135deg);
+      }
+    }
+  }
+}

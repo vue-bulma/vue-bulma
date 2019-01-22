@@ -11,6 +11,8 @@ export { default as Content } from 'vue-bulma-content'
 
 export { default as Delete } from 'vue-bulma-delete'
 
+export { default as Icon } from 'vue-bulma-icon'
+
 // Layouts
 
 export { default as Container } from 'vue-bulma-container'

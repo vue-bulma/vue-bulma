@@ -12,6 +12,8 @@ export { default as Delete } from 'vue-bulma-delete'
 
 export { default as Icon } from 'vue-bulma-icon'
 
+export { default as Image } from 'vue-bulma-image'
+
 export { default as Progress } from 'vue-bulma-progress'
 
 export { default as Notification } from 'vue-bulma-notification'
@@ -34,6 +36,8 @@ export { default as Footer } from 'vue-bulma-footer'
 export { default as Tile } from 'vue-bulma-tile'
 
 // Components
+export { Card, CardFooterItem } from 'vue-bulma-card'
+
 export { Menu, MenuList, MenuItem } from 'vue-bulma-menu'
 
 export { Navbar, NavbarDropdown, NavbarItem } from 'vue-bulma-navbar'

@@ -1,4 +1,5 @@
 import './style.scss'
+
 const NUMERICAL = [
   '16x16',
   '24x24',
@@ -24,6 +25,7 @@ const NUMERICAL = [
   '1by2',
   '1by3'
 ]
+
 export default {
   name: 'vb-image',
   props: {
@@ -51,14 +53,8 @@ export default {
     }
   },
   render(h) {
-    const { classes, src, imgClasses } = this
-    const img = h('img', { src: src, class: imgClasses })
-    return h(
-      'figure',
-      {
-        class: classes
-      },
-      img
-    )
+    const { src, classes, imgClasses } = this
+    const img = [h('img', { attrs: { src }, class: imgClasses })]
+    return h('figure', { class: classes }, img)
   }
 }

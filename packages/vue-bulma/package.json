@@ -23,6 +23,7 @@
   "dependencies": {
     "vue-bulma-box": "^0.0.0",
     "vue-bulma-button": "^0.0.0",
+    "vue-bulma-card": "^0.0.0",
     "vue-bulma-columns": "^0.0.0",
     "vue-bulma-container": "^0.0.0",
     "vue-bulma-content": "^0.0.0",
@@ -30,6 +31,7 @@
     "vue-bulma-footer": "^0.0.0",
     "vue-bulma-hero": "^0.0.0",
     "vue-bulma-icon": "^0.0.0",
+    "vue-bulma-image": "^0.0.0",
     "vue-bulma-level": "^0.0.0",
     "vue-bulma-media-object": "^0.0.0",
     "vue-bulma-menu": "^0.0.0",

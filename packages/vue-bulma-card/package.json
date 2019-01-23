@@ -1,0 +1,22 @@
+{
+  "name": "vue-bulma-card",
+  "version": "0.0.0",
+  "description": "An all-around flexible and composable component",
+  "keywords": [
+    "vue",
+    "bulma",
+    "card"
+  ],
+  "author": "Guoxiao Cai <a304775438@aliyun.com>",
+  "homepage": "https://github.com/vue-bulma/vue-bulma/packages/vue-bulma-card#readme",
+  "license": "MIT",
+  "main": "src/main.js",
+  "files": [
+    "src"
+  ],
+  "dependencies": {
+    "bulma": "^0.7.2",
+    "vue-bulma-icon": "^0.0.0",
+    "vue-bulma-image": "^0.0.0"
+  }
+}

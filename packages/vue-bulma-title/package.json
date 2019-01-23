@@ -1,0 +1,21 @@
+{
+  "name": "vue-bulma-title",
+  "version": "0.0.0",
+  "description": "Simple headings",
+  "keywords": [
+    "vue",
+    "bulma",
+    "title",
+    "subtitle"
+  ],
+  "author": "Guoxiao Cai <a304775438@aliyun.com>",
+  "homepage": "https://github.com/vue-bulma/vue-bulma/packages/vue-bulma-title#readme",
+  "license": "MIT",
+  "main": "src/main.js",
+  "files": [
+    "src"
+  ],
+  "dependencies": {
+    "bulma": "^0.7.2"
+  }
+}

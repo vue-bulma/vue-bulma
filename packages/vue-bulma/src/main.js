@@ -16,6 +16,8 @@ export { default as Progress } from 'vue-bulma-progress'
 
 export { default as Notification } from 'vue-bulma-notification'
 
+export { Title, Subtitle } from 'vue-bulma-title'
+
 // Layouts
 export { default as Container } from 'vue-bulma-container'
 

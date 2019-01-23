@@ -4,7 +4,12 @@ export { Column, Columns } from 'vue-bulma-columns'
 // Elements
 export { default as Box } from 'vue-bulma-box'
 
-export { Button, ButtonAddons, ButtonGroup, ButtonList } from 'vue-bulma-button'
+export {
+  Button,
+  ButtonAddons,
+  ButtonGroup,
+  ButtonsList
+} from 'vue-bulma-button'
 
 export { default as Content } from 'vue-bulma-content'
 

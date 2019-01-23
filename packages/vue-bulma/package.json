@@ -39,6 +39,7 @@
     "vue-bulma-notification": "^0.0.0",
     "vue-bulma-progress": "^0.0.0",
     "vue-bulma-section": "^0.0.0",
+    "vue-bulma-tag": "^0.0.0",
     "vue-bulma-tile": "^0.0.0",
     "vue-bulma-title": "^0.0.0"
   }

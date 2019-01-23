@@ -1,0 +1,21 @@
+{
+  "name": "vue-bulma-tag",
+  "version": "0.0.0",
+  "description": "Small tag labels to insert anywhere",
+  "keywords": [
+    "vue",
+    "bulma",
+    "tag"
+  ],
+  "author": "Guoxiao Cai <a304775438@aliyun.com>",
+  "homepage": "https://github.com/vue-bulma/vue-bulma/packages/vue-bulma-tag#readme",
+  "license": "MIT",
+  "main": "src/main.js",
+  "files": [
+    "src"
+  ],
+  "dependencies": {
+    "bulma": "^0.7.2",
+    "vue-bulma-common": "^0.0.0"
+  }
+}

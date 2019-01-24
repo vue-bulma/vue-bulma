@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: 'VbCheckboxGroup',
+  name: 'vb-checkbox-group',
   model: {
     prop: 'value',
     event: 'change'

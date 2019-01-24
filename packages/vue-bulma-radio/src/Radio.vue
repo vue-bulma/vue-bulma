@@ -8,7 +8,7 @@
       @change="handleChange"
       @focus="handleFocus"
       @blur="handleBlur"
-    >
+    />
 
     <span class="radio-label">
       <slot></slot>

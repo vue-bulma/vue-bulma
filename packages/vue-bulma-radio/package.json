@@ -8,7 +8,7 @@
     "radio"
   ],
   "author": "Guoxiao Cai <a304775438@aliyun.com>",
-  "homepage": "https://github.com/vue-bulma/vue-bulma#readme",
+  "homepage": "https://github.com/vue-bulma/vue-bulma/packages/vue-bulma-radio#readme",
   "license": "MIT",
   "main": "src/main.js",
   "files": [

@@ -1,0 +1,22 @@
+{
+  "name": "vue-bulma-select",
+  "version": "0.0.0",
+  "description": "The browser built-in select dropdown, styled accordingly",
+  "keywords": [
+    "vue",
+    "bulma",
+    "select"
+  ],
+  "author": "Guoxiao Cai <a304775438@aliyun.com>",
+  "homepage": "https://github.com/vue-bulma/vue-bulma/packages/vue-bulma-select#readme",
+  "license": "MIT",
+  "main": "src/main.vue",
+  "files": [
+    "src"
+  ],
+  "dependencies": {
+    "bulma": "^0.7.2",
+    "vue-bulma-common": "^0.0.0",
+    "vue-bulma-icon": "^0.0.0"
+  }
+}

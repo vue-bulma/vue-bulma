@@ -21,6 +21,8 @@ export { default as Input } from 'vue-bulma-input'
 
 export { default as Textarea } from 'vue-bulma-textarea'
 
+export { default as Select } from 'vue-bulma-select'
+
 // Elements
 export { default as Box } from 'vue-bulma-box'
 

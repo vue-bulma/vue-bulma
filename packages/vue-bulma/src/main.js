@@ -17,6 +17,8 @@ export { default as Footer } from 'vue-bulma-footer'
 export { default as Tile } from 'vue-bulma-tile'
 
 // Form
+export { Form, FormItem } from 'vue-bulma-form'
+
 export { default as Input } from 'vue-bulma-input'
 
 export { default as Textarea } from 'vue-bulma-textarea'

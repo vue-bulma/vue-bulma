@@ -1,0 +1,22 @@
+{
+  "name": "vue-bulma-input",
+  "version": "0.0.0",
+  "description": "The text input and its variations",
+  "keywords": [
+    "vue",
+    "bulma",
+    "input"
+  ],
+  "author": "Guoxiao Cai <a304775438@aliyun.com>",
+  "homepage": "https://github.com/vue-bulma/vue-bulma/packages/vue-bulma-input#readme",
+  "license": "MIT",
+  "main": "src/main.js",
+  "files": [
+    "src"
+  ],
+  "dependencies": {
+    "bulma": "^0.7.2",
+    "vue-bulma-common": "^0.0.0",
+    "vue-bulma-icon": "^0.0.0"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "vue-bulma-checkbox",
+  "version": "0.0.0",
+  "description": "The 2-state checkbox in its native format",
+  "keywords": [
+    "vue",
+    "bulma",
+    "checkbox"
+  ],
+  "author": "Guoxiao Cai <a304775438@aliyun.com>",
+  "homepage": "https://github.com/vue-bulma/vue-bulma/packages/vue-bulma-checkbox#readme",
+  "license": "MIT",
+  "main": "src/main.js",
+  "files": [
+    "src"
+  ],
+  "dependencies": {
+    "bulma": "^0.7.2"
+  }
+}

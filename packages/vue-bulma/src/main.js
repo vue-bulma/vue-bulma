@@ -23,6 +23,8 @@ export { default as Textarea } from 'vue-bulma-textarea'
 
 export { default as Select } from 'vue-bulma-select'
 
+export { Checkbox, CheckboxGroup } from 'vue-bulma-checkbox'
+
 // Elements
 export { default as Box } from 'vue-bulma-box'
 

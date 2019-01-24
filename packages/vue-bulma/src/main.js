@@ -27,6 +27,8 @@ export { Checkbox, CheckboxGroup } from 'vue-bulma-checkbox'
 
 export { Radio, RadioGroup } from 'vue-bulma-radio'
 
+export { default as Uploader } from 'vue-bulma-uploader'
+
 // Elements
 export { default as Box } from 'vue-bulma-box'
 

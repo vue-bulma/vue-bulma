@@ -46,6 +46,7 @@
     "vue-bulma-tag": "^0.0.0",
     "vue-bulma-textarea": "^0.0.0",
     "vue-bulma-tile": "^0.0.0",
-    "vue-bulma-title": "^0.0.0"
+    "vue-bulma-title": "^0.0.0",
+    "vue-bulma-uploader": "^0.0.0"
   }
 }

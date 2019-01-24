@@ -19,6 +19,8 @@ export { default as Tile } from 'vue-bulma-tile'
 // Form
 export { default as Input } from 'vue-bulma-input'
 
+export { default as Textarea } from 'vue-bulma-textarea'
+
 // Elements
 export { default as Box } from 'vue-bulma-box'
 

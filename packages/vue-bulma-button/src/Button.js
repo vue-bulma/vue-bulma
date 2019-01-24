@@ -1,6 +1,8 @@
 import { button as colorProps } from 'vue-bulma-common/src/mixins/color.js'
 import sizeProps from 'vue-bulma-common/src/mixins/size.js'
 
+const STATES = ['loading', 'active', 'focused', 'hovered', 'static']
+
 export default {
   name: 'vb-button',
   inject: {
@@ -57,10 +59,10 @@ export default {
     }
   },
   render(h) {
-    const { classes, handleClick, $slots } = this
+    const { type, classes, handleClick, $slots } = this
     return h(
       'button',
-      { class: classes, on: { click: handleClick } },
+      { attrs: { type }, class: classes, on: { click: handleClick } },
       $slots.default
     )
   }

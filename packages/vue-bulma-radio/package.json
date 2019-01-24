@@ -1,0 +1,20 @@
+{
+  "name": "vue-bulma-radio",
+  "version": "0.0.0",
+  "description": "The mutually exclusive radio buttons in their native format",
+  "keywords": [
+    "vue",
+    "bulma",
+    "radio"
+  ],
+  "author": "Guoxiao Cai <a304775438@aliyun.com>",
+  "homepage": "https://github.com/vue-bulma/vue-bulma#readme",
+  "license": "MIT",
+  "main": "src/main.js",
+  "files": [
+    "src"
+  ],
+  "dependencies": {
+    "bulma": "^0.7.2"
+  }
+}

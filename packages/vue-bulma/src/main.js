@@ -25,6 +25,8 @@ export { default as Select } from 'vue-bulma-select'
 
 export { Checkbox, CheckboxGroup } from 'vue-bulma-checkbox'
 
+export { Radio, RadioGroup } from 'vue-bulma-radio'
+
 // Elements
 export { default as Box } from 'vue-bulma-box'
 

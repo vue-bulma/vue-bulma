@@ -49,7 +49,7 @@ export default {
     },
     group() {
       let parent = this.$parent
-      while (parent && parent.$options.name !== 'VbCheckboxGroup') {
+      while (parent && parent.$options.name !== 'vb-checkbox-group') {
         parent = parent.$parent
       }
       return parent

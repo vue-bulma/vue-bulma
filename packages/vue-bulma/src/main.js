@@ -58,6 +58,8 @@ export { Tag, Tags } from 'vue-bulma-tag'
 export { Title, Subtitle } from 'vue-bulma-title'
 
 // Components
+export { Breadcrumb, BreadcrumbItem } from 'vue-bulma-breadcrumb'
+
 export { Card, CardFooterItem } from 'vue-bulma-card'
 
 export { Dropdown, DropdownItem, DropdownMenu } from 'vue-bulma-dropdown'

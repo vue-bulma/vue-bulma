@@ -1,0 +1,21 @@
+{
+  "name": "vue-bulma-message",
+  "version": "0.0.0",
+  "description": "Colored message blocks, to emphasize part of your page",
+  "keywords": [
+    "vue",
+    "bulma",
+    "message"
+  ],
+  "author": "Guoxiao Cai <a304775438@aliyun.com>",
+  "homepage": "https://github.com/vue-bulma/vue-bulma/packages/vue-bulma-message#readme",
+  "license": "MIT",
+  "main": "src/main.js",
+  "files": [
+    "src"
+  ],
+  "dependencies": {
+    "bulma": "^0.7.2",
+    "vue-bulma-common": "^0.0.0"
+  }
+}

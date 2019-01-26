@@ -66,4 +66,6 @@ export { Dropdown, DropdownItem, DropdownMenu } from 'vue-bulma-dropdown'
 
 export { Menu, MenuList, MenuItem } from 'vue-bulma-menu'
 
+export { default as Message } from 'vue-bulma-message'
+
 export { Navbar, NavbarDropdown, NavbarItem } from 'vue-bulma-navbar'

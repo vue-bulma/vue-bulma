@@ -1,0 +1,20 @@
+{
+  "name": "vue-bulma-dropdown",
+  "version": "0.0.0",
+  "description": "An interactive dropdown menu for discoverable content",
+  "keywords": [
+    "vue",
+    "bulma",
+    "dropdown"
+  ],
+  "author": "Guoxiao Cai <a304775438@aliyun.com>",
+  "homepage": "https://github.com/vue-bulma/vue-bulma/packages/vue-bulma-dropdown#readme",
+  "license": "MIT",
+  "main": "src/main.js",
+  "files": [
+    "src"
+  ],
+  "dependencies": {
+    "bulma": "^0.7.2"
+  }
+}

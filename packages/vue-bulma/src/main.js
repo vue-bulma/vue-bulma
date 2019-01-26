@@ -60,6 +60,8 @@ export { Title, Subtitle } from 'vue-bulma-title'
 // Components
 export { Card, CardFooterItem } from 'vue-bulma-card'
 
+export { Dropdown, DropdownItem, DropdownMenu } from 'vue-bulma-dropdown'
+
 export { Menu, MenuList, MenuItem } from 'vue-bulma-menu'
 
 export { Navbar, NavbarDropdown, NavbarItem } from 'vue-bulma-navbar'

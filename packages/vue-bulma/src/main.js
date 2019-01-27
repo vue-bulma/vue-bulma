@@ -68,4 +68,6 @@ export { Menu, MenuList, MenuItem } from 'vue-bulma-menu'
 
 export { default as Message } from 'vue-bulma-message'
 
+export { default as Modal } from 'vue-bulma-modal'
+
 export { Navbar, NavbarDropdown, NavbarItem } from 'vue-bulma-navbar'

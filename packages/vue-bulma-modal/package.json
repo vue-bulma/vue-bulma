@@ -1,0 +1,21 @@
+{
+  "name": "vue-bulma-modal",
+  "version": "0.0.0",
+  "description": "A classic modal overlay",
+  "keywords": [
+    "vue",
+    "bulma",
+    "modal"
+  ],
+  "author": "Guoxiao Cai <a304775438@aliyun.com>",
+  "homepage": "https://github.com/vue-bulma/vue-bulma/packages/vue-bulma-modal#readme",
+  "license": "MIT",
+  "main": "src/main.js",
+  "files": [
+    "src"
+  ],
+  "dependencies": {
+    "bulma": "^0.7.2",
+    "vue-bulma-delete": "^0.0.0"
+  }
+}

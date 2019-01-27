@@ -71,3 +71,5 @@ export { default as Message } from 'vue-bulma-message'
 export { default as Modal } from 'vue-bulma-modal'
 
 export { Navbar, NavbarDropdown, NavbarItem } from 'vue-bulma-navbar'
+
+export { default as Pagination } from 'vue-bulma-pagination'

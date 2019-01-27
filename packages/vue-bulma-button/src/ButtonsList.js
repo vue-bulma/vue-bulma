@@ -1,7 +1,7 @@
 import alignProps from 'vue-bulma-common/src/mixins/align.js'
 
 export default {
-  name: 'Vb-buttons-list',
+  name: 'vb-buttons-list',
   mixins: [alignProps],
   props: {
     addons: Boolean
@@ -17,6 +17,7 @@ export default {
     }
   },
   render(h) {
+    const { classes, $slots } = this
     return h('div', { class: classes }, $slots.default)
   }
 }

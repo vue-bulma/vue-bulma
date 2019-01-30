@@ -73,3 +73,5 @@ export { default as Modal } from 'vue-bulma-modal'
 export { Navbar, NavbarDropdown, NavbarItem } from 'vue-bulma-navbar'
 
 export { default as Pagination } from 'vue-bulma-pagination'
+
+export { Tabs, TabItem } from 'vue-bulma-tabs'

@@ -1,0 +1,25 @@
+{
+  "name": "vue-bulma-tabs",
+  "version": "0.0.0",
+  "description": "Simple responsive horizontal navigation tabs, with different styles",
+  "author": "ShengYuan Cai <csy9211@163.com>",
+  "homepage": "https://github.com/vue-bulma/vue-bulma/packages/vue-bulma-tabs#readme",
+  "license": "MIT",
+  "main": "src/main.js",
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vue-bulma/vue-bulma.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/vue-bulma/vue-bulma/issues"
+  },
+  "dependencies": {
+    "bulma": "^0.7.2"
+  }
+}

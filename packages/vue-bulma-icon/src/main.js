@@ -1,3 +1,4 @@
+import 'font-awesome/css/font-awesome.css'
 import './style.scss'
 import colorProps from 'vue-bulma-common/src/mixins/color'
 import sizeProps from 'vue-bulma-common/src/mixins/size'

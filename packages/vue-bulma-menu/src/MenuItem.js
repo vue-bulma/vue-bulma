@@ -28,7 +28,12 @@ export default {
     const { labelClasses, handleClick: click, showSubmenu, icon, $slots } = this
     const labelIcon =
       $slots.icon ||
-      (icon && h('vb-icon', { class: 'vb-menu-item__icon', name: icon }, []))
+      (icon &&
+        h(
+          'vb-icon',
+          { class: 'vb-menu-item__icon', props: { name: icon } },
+          []
+        ))
 
     const label = h('a', { class: labelClasses, on: { click } }, [
       labelIcon,

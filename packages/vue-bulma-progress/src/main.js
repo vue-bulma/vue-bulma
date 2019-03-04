@@ -12,7 +12,16 @@ export default {
       validator(value) {
         return +value
       }
-    }
+    },
+    value: {
+      type: [Number, String],
+      required: true,
+      default: 0,
+      validator(value) {
+        return +value
+      }
+    },
+    showLabel: Boolean
   },
   computed: {
     classes() {
@@ -22,17 +31,30 @@ export default {
         [`is-${color}`]: !!color,
         [`is-${size}`]: !!size
       }
+    },
+    precentage() {
+      return Math.floor((this.value / this.max) * 100)
     }
   },
   render(h) {
-    const { classes, max, $slots } = this
-    return h(
-      'progress',
-      {
-        class: classes,
-        max
-      },
-      $slots.default
-    )
+    const { showLabel } = this
+    const progress = this.renderProgress(h)
+    const precent = this.renderPercent(h)
+    const content = showLabel ? [progress, precent] : [progress]
+    return h('div', { class: 'progress-container' }, content)
+  },
+  methods: {
+    renderProgress(h) {
+      const { classes, max, value, $slots } = this
+      return h(
+        'progress',
+        { class: classes, attrs: { max, value } },
+        $slots.default
+      )
+    },
+    renderPercent(h) {
+      const { precentage } = this
+      return h('span', [`${precentage}%`])
+    }
   }
 }

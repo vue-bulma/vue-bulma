@@ -19,6 +19,6 @@ export default {
       [`is-${size}`]: !!size
     }
 
-    return h('section', { class: classes }, this.$slots.default)
+    return h('section', { class: classes }, $slots.default)
   }
 }

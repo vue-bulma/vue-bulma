@@ -37,5 +37,9 @@
     "ignore": [
       "*.png"
     ]
+  },
+  "dependencies": {
+    "highlight.js": "^9.15.6",
+    "vue-router": "^3.0.2"
   }
 }

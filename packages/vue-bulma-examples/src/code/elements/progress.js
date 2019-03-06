@@ -3,6 +3,9 @@ let code = {}
 code.basic = `\
 <vb-progress value="15" max="100"></vb-progress>
 `
+code.percent = `\
+<vb-progress value="15" max="100" showLabel></vb-progress>
+`
 
 code.colors = `\
 <vb-progress value="10" max="200"></vb-progress>

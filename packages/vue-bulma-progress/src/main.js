@@ -41,7 +41,7 @@ export default {
     const progress = this.renderProgress(h)
     const precent = this.renderPercent(h)
     const content = showLabel ? [progress, precent] : [progress]
-    return h('div', { class: 'progress-container' }, content)
+    return h('div', { class: 'progress-wrap' }, content)
   },
   methods: {
     renderProgress(h) {

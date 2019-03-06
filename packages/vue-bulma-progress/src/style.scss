@@ -4,7 +4,7 @@
 @import '~bulma/sass/utilities/mixins.sass';
 @import '~bulma/sass/elements/progress.sass';
 
-.progress-container {
+.progress-wrap {
   display: flex;
   align-items: center;
   margin-bottom: 15px;
@@ -13,7 +13,7 @@
   position: relative;
   margin-bottom: 0 !important;
 }
-.progress + span {
+.progress-wrap span {
   margin-left: 10px;
   min-width: 40px;
   text-align: left;

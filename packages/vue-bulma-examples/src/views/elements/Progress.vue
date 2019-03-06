@@ -1,12 +1,16 @@
 <template>
   <vb-section>
     <example-section-item title="Basic">
-      <vb-content>
-        Max default 100.
-      </vb-content>
+      <vb-content>Max default 100.</vb-content>
 
       <demo :code="code.basic">
         <vb-progress value="15" max="100"></vb-progress>
+      </demo>
+    </example-section-item>
+
+    <example-section-item title="Percent">
+      <demo :code="code.percent">
+        <vb-progress value="15" max="100" showLabel></vb-progress>
       </demo>
     </example-section-item>
 
